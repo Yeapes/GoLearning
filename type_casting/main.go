@@ -12,4 +12,8 @@ func main(){
 	var experience float64 = 2.5
 	var experience_int int = int(experience)
 	fmt.Printf("%v",experience_int)
+
+	//constant
+	const PI float64 = 2.02
+	fmt.Println(PI)
 }
