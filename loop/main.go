@@ -12,6 +12,8 @@ func main() {
 
 
   fruits2 := [3]string{"apple", "orange", "banana"}
+
+  //you can omit idx and value using _
   for idx, val := range fruits2 {
      fmt.Printf("%v\t%v\n", idx, val)
   }
