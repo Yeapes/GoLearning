@@ -12,4 +12,6 @@ func main(){
 	}else {
 		fmt.Println("It's not a correct value to check condition")
 	}
+
+	
 }
