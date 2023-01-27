@@ -17,4 +17,10 @@ func main() {
   for idx, val := range fruits2 {
      fmt.Printf("%v\t%v\n", idx, val)
   }
+
+  j :=1
+  for j <= 5{
+    fmt.Println(j)
+    j = j + 1
+  }
 }
